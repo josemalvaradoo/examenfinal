@@ -1,0 +1,314 @@
+:root{
+--f7-theme-color:#716C6E;
+--f7-navbar-bg-color: #AAEFFF; /navbar/
+--f7-navbar-text-color:#FFF;
+--f7-navbar-link-color:#EADDD3; /link navbar/
+--f7-bars-bg-color:#B88B6C;/toolbar/
+--f7-block-margin-vertical:50px;
+--f7-card-footer-border-color:transparent; 
+--color-gris:#666666;
+--color-negro:#B095AE;
+}
+body{
+	font-weight: 400;
+	color: var(--color-negro);
+	font-size: 15px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: 400;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.toolbar .tab-link{
+	color: #fff;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: inherit;
+}
+
+p{
+	margin: 1px;
+}
+.img-fluid{
+	max-width: 100%;
+}
+.block-title{
+	color: var(--color-negro);
+	font-size: 18px;
+	font-weight: 600;
+	overflow: inherit;
+}
+.letra-link-title{
+	font-size: 80%;
+}
+.letra-link-title span{
+	font-size: 85%;
+}
+
+
+.texto-inicial{
+	color: #517F8A;
+	font-weight: 600;
+	font-size: 26px;
+	line-height: 1.3;
+}
+
+
+.banner-inicio{
+	background-color: #AAEFFF;
+	color: #fff;
+	padding: 10px 10px 0;
+	border-radius: 15px;
+	margin-top: 30px;
+	position: relative;
+}
+.banner-inicio img{
+	
+	border-radius: 15px;
+}
+.banner-inicio h2{
+	font-size: 20px;
+	font-weight: 600;
+}
+.banner-inicio .precio{
+	background-color: white;
+	color: #000;
+	font-weight: 400;
+	padding: 7px 10px;
+	display: inline-block;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	margin-left: 200px;
+	position: absolute;
+	bottom: 0;
+}
+.block-title h2{
+	color:000;
+}
+.info-menu{
+	background-color: var(--f7-theme-color);
+	padding: 15px 10px;
+	color: rgba(255,255,255,0.80);
+	font-size: 12px;
+}
+.info-menu .block-title{
+	margin-top: 0;
+}
+.info-menu .icon-usuario{
+	font-size:50px;
+	color: #fff;
+}
+.info-menu .nombre{
+	color: #fff;
+	font-weight: 800;
+}
+.button-perfil{
+	background-color: #fff;
+	color: #000;
+	margin-top: 20px;
+	text-align: left;
+	padding-left: 30px;
+	text-transform: inherit;
+	letter-spacing: 0;
+	font-weight: 600;
+}
+.button-perfil span{
+	font-size: 14px;
+	margin-right: 5px;
+}
+
+.panel-left{
+	background-color: #f2f2f2;
+}
+.panel-left .block-title{
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #888;
+}
+.panel-left .list ul{
+	font-size: 14px;
+	background-color: #f2f2f2;
+}
+.panel-left .list .item-media{
+	color: var(--f7-theme-color) !important;
+}
+
+
+#productos .card-content{
+	background-color: #f2f2f2;
+	text-align: center;
+}
+#productos .card-footer{
+	background-color: #AAEFFF;
+	color: #fff;
+}
+#productos .card-footer a{
+	color: #fff;
+}
+#productos .nombre{
+	font-weight: 600;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color:#5D60FF
+}
+#productos .categoria{
+	font-weight: 600;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color:#000000
+}
+#productos .categoria{
+	font-size: 14px;
+	color: #888;
+}
+
+
+#list-products a{
+	color: #000;
+	font-size: 16px;
+	font-weight: 600;
+}
+#list-products .card ul{
+	padding-left: 15px;
+	font-size: 11px;
+}
+#list-products .card li{
+	
+	font-weight: normal;
+}
+
+
+.info-top{
+	background-color: #f2f2f2;
+	color: #888;
+	font-size: 14px;
+	font-weight: 600;
+}
+.list-info{
+	margin-top: 50%;
+}
+.letra-gris{
+	color: #aaa;
+}
+.texto-info{
+	margin-top: 30px;
+	margin-bottom: 40px;
+	font-size: 14px;
+}
+.precio-info{
+	font-weight: 600;
+	font-size: 20px;
+	text-align: end;
+	margin-right: 30px;
+}
+
+
+
+.sign-up{
+	z-index: 12000;	
+}
+.sign-up .page-content{
+	margin-top: 0;
+}
+
+
+.login-screen h2,
+.login-screen-page h2{
+	color: var(--f7-theme-color);
+	font-weight: 600;
+	font-size: 36px;
+	margin-bottom: 0;
+}
+
+.login-screen h4,
+.login-screen-page h4{
+	font-weight: 500;
+	font-size: 24px;
+	margin-top: 0;
+}
+.login-screen-title i{
+	color: #AAEFFF;
+	font-size: 100px;
+	margin-bottom: 0;
+}
+.login-screen-title h2{
+	color: #000;
+	font-size: 36px;
+	margin-bottom: 0;
+}
+.login-screen-title h4{
+	color: #AAEFFF;
+	font-size: 20px;
+	margin-bottom: 0;
+}
+.title {
+	color:aliceblue
+}
+#login .item-floating-label{
+	color: #AAEFFF
+}
+
+#app a{
+	color:000;
+		
+}
+
+.toolbar i{
+	color:black;
+	
+}
+.tab-link a{
+	color:black;
+}
+.links-list a{
+	color:black;
+}
+.nombre {
+	color: black;
+}
+#login .button-fill{
+	background-color: #AAEFFF;
+}
+#login .item-inner{
+	background-color:#3D454F;
+	margin: 10px;
+	Border-radius: 10px;
+
+}
+#login .item-title{
+	margin-left: 20px 
+}
+#login .item-input-wrap{
+	margin-left: 20px 
+}
+#login ul{
+	list-style-type: none;
+}
+
+#login .item-inner{
+		align-content: center;
+	padding-right: 50px;
+}
+#login .block{
+	border:none;
+}
+.block-title{
+	color: black;
+}
+#profile .profile-content{
+	color:#AAEFFF;
+}
+#profile .profile-name{
+	color:#AAEFFF;
+}
+#profile .button{
+	background-color:#AAEFFF;
+}
+#profile .profile-image img{
+	border-radius:50px;
+}
+
+
+
+
+
+
+
